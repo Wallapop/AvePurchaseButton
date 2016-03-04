@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.author             = { "Wallapop" => "ios@wallapop.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/Wallapop/AvePurchaseButton.git", :tag => s.version.to_s }
-  s.source_files  = Source/**/*.{h,m}"
+  s.source_files  = "Source/**/*.{h,m}"
 end
